@@ -1,0 +1,52 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.pricing-plan{
+    flex:1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: goldenrod;
+    box-shadow: antiquewhite;
+    border-radius: 5px;
+    text-align: center;
+}
+.plan-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    
+}
+.plan-features{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    font-weight: 400;
+}
+.plan-price{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.plan-button{
+    margin-top: 5px;
+    padding:10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    border:none;
+}
+@media(max-width:1250px){
+    .pricing-container{
+        flex-direction:column;
+        height:100%;
+    }
+}
